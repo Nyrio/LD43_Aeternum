@@ -1,0 +1,149 @@
+{
+    "dialogue": [
+        {
+            "n": 0,
+            "type": "choice",
+            "text": "That lesson today...\nI feel like something's not right",
+            "options": [
+                {
+                    "text": "I agree",
+                    "next": 1
+                },
+                {
+                    "text": "I disagree",
+                    "next": 2
+                }
+            ]
+        },
+        {
+            "n": 1,
+            "type": "playerline",
+            "text": "I agree, it's like we're animals",
+            "next": 2
+        },
+        {
+            "n": 2,
+            "type": "npcline",
+            "text": "I heard my parents talking the other\nday, they said... they said...",
+            "next": 3
+        },
+        {
+            "n": 3,
+            "type": "playerline",
+            "text": "Hey, are you ok? You're crying...\nTell me, Lucy.",
+            "next": 4
+        },
+        {
+            "n": 4,
+            "type": "npcline",
+            "text": "They said we're broke., they sold me\nto buy food",
+            "next": 5
+        },
+        {
+            "n": 5,
+            "type": "choice",
+            "text": "",
+            "options": [
+                {
+                    "text": "It means that...",
+                    "next": 6
+                },
+                {
+                    "text": "...",
+                    "next": 6
+                }
+            ]
+        },
+        {
+            "n": 6,
+            "type": "npcline",
+            "text": "My owner can use me at any time to\nfuel the Aeternum...",
+            "next": 7
+        },
+        {
+            "n": 7,
+            "type": "choice",
+            "text": "",
+            "options": [
+                {
+                    "text": "That's terrible!",
+                    "next": 9
+                },
+                {
+                    "text": "They won't do that to a child!",
+                    "next": 8
+                }
+            ]
+        },
+        {
+            "n": 8,
+            "type": "npcline",
+            "text": "Who knows what people are capable of?",
+            "next": 9
+        },
+        {
+            "n": 9,
+            "type": "playerline",
+            "text": "We will find a solution.\nI won't let them have you!",
+            "next": 10
+        },
+        {
+            "n": 10,
+            "type": "npcline",
+            "text": "...",
+            "next": 11
+        },
+        {
+            "n": 11,
+            "type": "clear"
+        },
+        {
+            "n": 12,
+            "type": "playerline",
+            "text": "They sell people like you would sell\nvegetables or shampoo...",
+            "next": 13
+        },
+        {
+            "n": 13,
+            "type": "npcline",
+            "text": "And maybe one day you'll be sold too.",
+            "next": 14
+        },
+        {
+            "n": 14,
+            "type": "clear"
+        },
+        {
+            "n": 15,
+            "type": "npcline",
+            "text": "2031: when the Aeternum was invented\n...",
+            "next": 16
+        },
+        {
+            "n": 16,
+            "type": "playerline",
+            "text": "I wonder how life was before, when\npeople knew their days were numbered.",
+            "next": 17
+        },
+        {
+            "n": 17,
+            "type": "npcline",
+            "text": "More... natural? Fair?",
+            "next": 18
+        },
+        {
+            "n": 18,
+            "type": "clear"
+        },
+        {
+            "n": 19,
+            "type": "playerline",
+            "text": "Oh, it looks like the developer\ndidn't have time to go further",
+            "next": 20
+        },
+        {
+            "n": 20,
+            "type": "clear"
+        }
+    ]
+}

@@ -1,0 +1,215 @@
+{
+    "dialogue": [
+        {
+            "n": 0,
+            "type": "npcline",
+            "text": "Hi everybody.\nToday we will talk about the Aeternum.",
+            "next": 2
+        },
+        {
+        },
+        {
+            "n": 2,
+            "type": "choice",
+            "text": "Does somebody know what it is?",
+            "options": [
+                {
+                    "text": "I do, ma'am!",
+                    "next": 3
+                },
+                {
+                    "text": "...",
+                    "next": 5
+                }
+            ]
+        },
+        {
+            "n": 3,
+            "type": "playerline",
+            "text": "It's a machine that makes people\nlive forever.",
+            "next": 4
+        },
+        {
+            "n": 4,
+            "type": "npcline",
+            "text": "Yes, that's right, John.",
+            "next": 7
+        },
+        {
+            "n": 5,
+            "type": "npcline",
+            "text": "Nobody knows?",
+            "next": 6
+        },
+        {
+            "n": 6,
+            "type": "npcline",
+            "text": "It is the machine that made eternal\nlife possible.",
+            "next": 10
+        },
+        {
+            "n": 7,
+            "type": "choice",
+            "text": "John, do you know how it works?",
+            "options": [
+                {
+                    "text": "Yes I do",
+                    "next": 8
+                },
+                {
+                    "text": "No",
+                    "next": 10
+                }
+            ]
+        },
+        {
+            "n": 8,
+            "type": "playerline",
+            "text": "Rich people take the life of poor\npeople, my father says.",
+            "next": 9
+        },
+        {
+            "n": 9,
+            "type": "npcline",
+            "text": "Well, this is not the truth.\nNot exactly.",
+            "next": 10
+        },
+        {
+            "n": 10,
+            "type": "npcline",
+            "text": "Bad people are sacrificed so that\ngood people can live.",
+            "next": 11
+        },
+        {
+            "n": 11,
+            "type": "npcline",
+            "text": "For example criminals lose the right\nto live,",
+            "next": 12
+        },
+        {
+            "n": 12,
+            "type": "npcline",
+            "text": "and people who make a better society\ncan take their vital energy.",
+            "next": 13
+        },
+        {
+            "n": 13,
+            "type": "choice",
+            "text": "",
+            "options": [
+                {
+                    "text": "My father said...",
+                    "next": 14
+                },
+                {
+                    "text": "...",
+                    "next": 16
+                }
+            ]
+        },
+        {
+            "n": 14,
+            "type": "playerline",
+            "text": "My father said lives can be sold for\nmoney, or lost due to debts.",
+            "next": 15
+        },
+        {
+            "n": 15,
+            "type": "npcline",
+            "text": "Yes, that's right.",
+            "next": 16
+        },
+        {
+            "n": 16,
+            "type": "npcline",
+            "text": "The United States are ahead of the\nrest of the world,",
+            "next": 17
+        },
+        {
+            "n": 17,
+            "type": "npcline",
+            "text": "it's the only place where people with\nmerit get the long life they deserve",
+            "next": 18
+        },
+        {
+            "n": 18,
+            "type": "npcline",
+            "text": "and junkies and weak people don't\ndeserve to live.",
+            "next": 19
+        },
+        {
+            "n": 19,
+            "type": "npcline",
+            "text": "But we all have rights. If you have\nlost your life and it has not yet",
+            "next": 20
+        },
+        {
+            "n": 20,
+            "type": "npcline",
+            "text": "been used by its owner, you have the\nright to buy it back.",
+            "next": 22
+        },
+        {
+        },
+        {
+            "n": 22,
+            "type": "choice",
+            "text": "",
+            "options": [
+                {
+                    "text": "What about the children?",
+                    "next": 23
+                },
+                {
+                    "text": "...",
+                    "next": 27
+                }
+            ]
+        },
+        {
+            "n": 23,
+            "type": "npcline",
+            "text": "You belong to your parents, or\nwhoever they sell your life to,",
+            "next": 24
+        },
+        {
+            "n": 24,
+            "type": "npcline",
+            "text": "until the age of 16 when you can buy\nyour life to its owner.",
+            "next": 25
+        },
+        {
+            "n": 25,
+            "type": "choice",
+            "text": "",
+            "options": [
+                {
+                    "text": "It's unfair!",
+                    "next": 26
+                },
+                {
+                    "text": "...",
+                    "next": 27
+                }
+            ]
+        },
+        {
+            "n": 26,
+            "type": "npcline",
+            "text": "Children don't have the maturity to\ndecide what to do with their lives.",
+            "next": 27
+        },
+        {
+            "n": 27,
+            "type": "npcline",
+            "text": "Now, the lesson is over.\nSee you tomorrow!",
+            "next": 28
+        },
+        {
+            "n": 28,
+            "type": "changescene",
+            "text": "Street",
+            "next": 0
+        }
+    ]
+}
