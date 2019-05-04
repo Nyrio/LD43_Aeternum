@@ -10,11 +10,11 @@ Unfortunately, I couldn't finish the game.
 
 ## How to run the game
 
-Download the latest release for your OS (releases for Linux and Windows, both 64-bit and 32-bit, are available).
+Download the latest release for your OS. Releases for Linux and Windows, both 64-bit and 32-bit, are available. I have also added a macOS release but it is untested, I won't be able to provide any support concerning macOS.
 
 On Windows, run `Aeternum.exe`. On Linux, run `aeternum.x86_64` (or `aeternum.x86`).
 
-I have also added a macOS release but it is untested, I won't be able to provide any support concerning macOS.
+**Warning**: the 32-bit Linux release has some bugs, e.g you don't have a window to select the resolution and change the input settings, and you might have to shut down your computer to exit the game.
 
 ## Controls
 
